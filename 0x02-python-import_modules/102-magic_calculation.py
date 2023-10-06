@@ -1,53 +1,12 @@
-#!/usr/bin/python3
+def magic_calculation(a, b):
+    add, sub = magic_calculation_102.add, magic_calculation_102.sub
 
+    if a < b:
+        c = add(a, b)
 
-def add(a, b):
-    """My addition function
+        for i in range(4, 6):
+            c = add(c, i)
 
-    Args:
-        a: first integer
-        b: second integer
+        return c
 
-    Returns:
-        The return value. a + b
-    """
-    return (a + b)
-
-
-def sub(a, b):
-    """My subtraction function
-
-    Args:
-        a: first integer
-        b: second integer
-
-    Returns:
-        The return value. a - b
-    """
-    return (a - b)
-
-
-def mul(a, b):
-    """My multiplication function
-
-    Args:
-        a: first integer
-        b: second integer
-
-    Returns:
-        The return value. a * b
-    """
-    return (a * b)
-
-
-def div(a, b):
-    """My division function
-
-    Args:
-        a: first integer
-        b: second integer
-
-    Returns:
-        The return value. a / b
-    """
-    return int(a / b)
+    return sub(a, b)
