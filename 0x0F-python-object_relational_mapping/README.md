@@ -1,7 +1,9 @@
 Learning Objectives
+
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 General
+
 Why Python programming is awesome
 How to connect to a MySQL database from a Python script
 How to SELECT rows in a MySQL table from a Python script
@@ -30,6 +32,7 @@ All your modules should have a documentation (python3 -c 'print(__import__("my_m
 All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
 All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
 A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
+
 You are not allowed to use execute with sqlalchemy
 More Info
 Install and activate venv
